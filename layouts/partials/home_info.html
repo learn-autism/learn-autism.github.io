@@ -2,7 +2,7 @@
 
 <script>
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "https://api.countapi.xyz/hit/may-dzied.github.io/visits");
+xhr.open("GET", "https://api.countapi.xyz/hit/learn-autism.github.io/visits");
 xhr.responseType = "json";
 xhr.onload = function() {
     let visits = this.response.value;
@@ -11,15 +11,20 @@ xhr.onload = function() {
 xhr.send();
 </script>
 
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
-    </header>
-    <div class="entry-content">
-        {{ .Content | markdownify }}
-    </div>
-    <footer class="entry-footer">
-        {{ partial "social_icons.html" site.Params.socialIcons }}
-    </footer>
-</article>
+<div style="display: flex; flex-direction: row; align-items: center;">
+    <!--
+    <img style="margin-right: 20px;" src="favicon32.png" alt="" aria-label="logo" height="40"> --
+    -->
+    <article class="first-entry home-info">
+        <header class="entry-header">
+            <h1>{{ .Title | markdownify }}</h1>
+        </header>
+        <div class="entry-content">
+            {{ .Content | markdownify }}
+        </div>
+        <footer class="entry-footer">
+            {{ partial "social_icons.html" site.Params.socialIcons }}
+        </footer>
+    </article>
+</div>
 {{- end -}}

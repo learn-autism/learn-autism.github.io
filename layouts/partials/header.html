@@ -65,7 +65,7 @@
                 <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
                     height="{{- site.Params.label.iconHeight | default "30" -}}">
                 {{- end -}}
-                {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
+                {{- else if hasPrefix site.Params.label.iconSVG "<svg>" }}
                     {{ site.Params.label.iconSVG | safeHTML }}
                 {{- end -}}
                 {{- $label_text -}}
@@ -118,6 +118,12 @@
                 {{- end }}
             </div>
         </div>
+        <div class="logo">
+            <a href="contact" accesskey="h" title="{{ $label_text }} (Alt + H)">
+                Contact us
+            </a>
+        </div>
+        <!--
         {{- $currentPage := . }}
         <ul id="menu">
             {{- range site.Menus.main }}
@@ -143,6 +149,7 @@
                 </a>
             </li>
             {{- end }}
-        </ul>
+        </ul> --
+        -->
     </nav>
 </header>
