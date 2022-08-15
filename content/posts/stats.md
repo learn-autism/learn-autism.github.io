@@ -1,5 +1,5 @@
 ---
-title: "Stats"
+title: "Statistics"
 date: 2022-08-15T13:30:25+01:00
 draft: false
 description: "Statistics we have gathered"
