@@ -19,7 +19,7 @@ params:
 
     socialIcons:
         - name: "Instagram"
-          url: "<link>"
+          url: "https://www.instagram.com/learn.autism"
         - name: "TikTok"
           url: "https://www.tiktok.com/@learn.autism"
         - name: "email"
