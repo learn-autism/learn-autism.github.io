@@ -7,4 +7,4 @@ description: "Frequently asked questions about autism"
 
 ## Q: What is autism?
 
-## Q: What is hard about living with autism?
+## Q: What is hard about having autism?
