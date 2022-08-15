@@ -5,4 +5,6 @@ draft: false
 description: "Frequently asked questions about autism"
 ---
 
-todo
+## Q: What is autism?
+
+## Q: What is hard about living with autism?
