@@ -15,4 +15,11 @@ Furthermore, people with high-functioning autism struggle to stay at jobs much m
 
 - In the UK, only **22%** of autistic adults in any kind of employment and only **16%** are in full-time employment 
 - Only just over **1 in 5** autistic adults are in work, despite research showing the vast majority want to work. 
-- Half of managers are uncomfortable employing a neurodivergent worker.  
+- Half of managers are uncomfortable employing a neurodivergent worker.
+
+Autism diagnoses are also not spread equally across different demographics. In the UK, children diagnosed with autism were:
+
+- **2.1%** black children
+- **0.85%** roma/irish children
+- **60%** more likely to be socially disadvantaged
+- **80%** male
