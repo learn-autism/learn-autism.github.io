@@ -33,6 +33,7 @@ while in the USA,
 - **11.1/1000** black children
 - **8/1000** hispanic children
 - African-american children are **5.1x** more likely to be misdiagnosed
+- Black (**47%**) and Hispanic children (**36%**) were more likely than white children (**27%**) to have an intellectual disability with autism.
 
 ### Education
 
