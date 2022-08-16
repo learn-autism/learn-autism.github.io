@@ -1,14 +1,31 @@
 {{- with site.Params.homeInfoParams }}
 
 <script>
-var xhr = new XMLHttpRequest();
-xhr.open("GET", "https://api.countapi.xyz/hit/learn-autism.github.io/visits");
-xhr.responseType = "json";
-xhr.onload = function() {
-    let visits = this.response.value;
-    console.log(`This site has been visited ${visits} times.`);
-}
-xhr.send();
+    // TOTAL_UID = 022a4427-6a8b-49fb-8a34-b05006a5d770
+    // UNIQUE_UID = e6615d86-aaa2-4239-a132-9ba9a2f3f083
+    const request = async (url) => {
+        let response = await fetch(url);
+        let data = await response.json();
+        return data;
+    }
+    const display_views = async () => {
+        let total_views = await request("https://api.countapi.xyz/get/022a4427-6a8b-49fb-8a34-b05006a5d770");
+        let unique_views = await request("https://api.countapi.xyz/get/e6615d86-aaa2-4239-a132-9ba9a2f3f083");
+        console.log(`Total views: ${total_views.value}`);
+        console.log(`Unique views: ${unique_views.value}`);
+    }
+    const increment = async (uid) => {
+        await request("https://api.countapi.xyz/update/" + uid + "?amount=1");
+    }
+    const main = async () => {
+        await increment("022a4427-6a8b-49fb-8a34-b05006a5d770");
+        if (document.cookie === "") {
+            await increment("e6615d86-aaa2-4239-a132-9ba9a2f3f083");
+            document.cookie = "yes";
+        }
+        await display_views();
+    }
+    main()
 </script>
 
 <div style="display: flex; flex-direction: row; align-items: center;">
