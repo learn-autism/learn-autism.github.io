@@ -21,5 +21,9 @@ Autism diagnoses are also not spread equally across different demographics. In t
 
 - **2.1%** black children
 - **0.85%** roma/irish children
-- **60%** more likely to be socially disadvantaged
 - **80%** male
+
+There is also a correlation between level of education and autism diagnoses:
+
+- Children of mothers educated to A-levels or above had **more than twice the rate** of autism diagnosis, at **1.5%** compared to **0.7%**
+- **60%** of autistic children are more likely to be socially disadvantaged, although no significant correlation can be seen when controlling for mother's education status
