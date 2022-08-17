@@ -17,4 +17,7 @@ We are running a multi-part campaign, involving three main parts:
 
 - This website, where people can read more about autism
 - Social media accounts where we will be raising awareness on the day to day life of young people with autism
-- Street interviews, where we will be providing a VR experience to experience what living with autism can be like
+- Street interviews, where we will be providing a VR experience to experience what living with autism can be like, as well as gathering the public's opinion on autism
+- Care packages containing ear plugs and fidget toys for autistic people
+
+To raise money for our cause, we did a [sponsored walk](https://www.tiktok.com/@learn.autism/video/7132556742877089029) and raised £140, which will be spent on the care packages.

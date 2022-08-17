@@ -5,6 +5,4 @@ draft: false
 description: "Frequently asked questions about autism"
 ---
 
-## Q: What is autism?
-
-## Q: What is hard about having autism?
+This will be filled out after 18/08/22, when we will be doing an interview with an expert on autism
